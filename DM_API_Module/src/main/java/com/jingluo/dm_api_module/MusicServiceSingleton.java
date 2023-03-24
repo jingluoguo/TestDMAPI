@@ -1404,6 +1404,9 @@ public class MusicServiceSingleton {
 
     /*
     获取榜单详情
+    topId - 是排行榜榜单id
+    page - 请求第几页，取值从0开始
+    pageSize - 每页的歌曲数 默认为20 最大值为50
      */
     public void getTopListDetail(int topId, int page, int pageSize, CommonUtil.CommonCallback callback) {
         if (firmAcctId.isEmpty()) {
