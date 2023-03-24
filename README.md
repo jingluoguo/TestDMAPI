@@ -11,6 +11,22 @@
 
 `DSN`：`DEFAULT_APP_KEY`使用`_`拼接`firmAcctId`
 
+### 自定义返回参数
+
+```json
+{
+  -100: "未初始化SDK",
+  -99: "缓存失效",
+  -1: "解析失败",
+  -2: "网络请求失败",
+  -3: "参数异常",
+  -4: "respBody 空",
+  -5: "请重新生成QQ音乐授权二维码",
+  -6: "返回数据异常",
+  -51: "收藏歌单时，歌单id为空",
+}
+```
+
 ### 初始化
 
 需要在`DM_API_Module/src/main/java/com/jingluo/dm_api_module/constant/Constant.java`将如下常量填写
